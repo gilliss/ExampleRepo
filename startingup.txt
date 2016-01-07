@@ -1,0 +1,8 @@
+To start tracking an existing project-- like this practice project-- cd into the project's dir and type
+$ git init
+Git will make a .git subdirectory for tracking purposes.
+
+To start version-controlling existing files from the project -- like this very file-- , do an initial commit
+$git add GitPracticeProject.txt
+$git add License
+$git commit -m 'initial project version'
