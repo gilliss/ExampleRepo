@@ -3,6 +3,31 @@ $ git init
 Git will make a .git subdirectory for tracking purposes.
 
 To start version-controlling existing files from the project -- like this very file-- , do an initial commit
-$git add GitPracticeProject.txt
+$git add GitPracticeProject.txt // add this file to tracking
 $git add License
-$git commit -m 'initial project version'
+$git commit -m 'initial project version' // commit
+
+To get an existing project from a server, use 
+$git clone <URL>
+This command creates a directory, and initializes a .git subdirectory, and pulls down all of the data from that repository -- that is all version of all files from the history of that project. Alternatively,
+$git clone <URL> <target dir>
+pulls down all of the info into a custom dir. If your URL is of the form git:// or user@server:path/to/repo.git, than your command will use the SSH transfer protocol.
+
+A file can be in one of three states, as tracked by Git: unmodified, modified, or staged. A file can also be untracked if it is a new file that has not yet been stage. To obtain the status of files, type
+$git status
+
+To get the options for a git command use
+$git help <command>
+
+If you don't want to track certain types of files, like .o files, you can type
+$cat .gitignore // makes an "ignore" file
+$*.[o] // .o files
+$*~    // temporary files
+
+To see unstaged changes, use
+$git diff
+
+To skip the "add" step and go straight to commit, use
+$git commit -a -m
+but not that this only stages and commits tracked files. Any new, untracked files are not acted upon.
+
