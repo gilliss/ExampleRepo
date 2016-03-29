@@ -41,7 +41,7 @@ $git branch
 To merge a branch into your current active branch (the one you’re currently checked into), use
 $git merge <branch> // i.e. you want to merge <branch> into the active branch
 
-… —
+It seems that you must commit your desired changes before checking in/out between branches. It is also useful to close the file before checking in/out between branches, b/c if the file is left open, the differences are carried into the destination branch. 
 
 See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
 
