@@ -29,5 +29,12 @@ $git diff
 
 To skip the "add" step and go straight to commit, use
 $git commit -a -m
-but not that this only stages and commits tracked files. Any new, untracked files are not acted upon.
+but note that this only stages and commits tracked files. Any new, untracked files are not acted upon.
+
+To make a branch off of the previous commit, use 
+$git branch <branch name>
+$git checkout <branch name>  // to be “cd’d” into that branch
+See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
+
+
 
