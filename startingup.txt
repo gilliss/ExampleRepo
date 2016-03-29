@@ -43,6 +43,8 @@ $git merge <branch> // i.e. you want to merge <branch> into the active branch
 
 It seems that you must commit your desired changes before checking in/out between branches. It is also useful to close the file before checking in/out between branches, b/c if the file is left open, the differences are carried into the destination branch. 
 
+There is a nice git GUI called gitk. gitk is supposedly built in, but it does not seem to be built in with my version: git version 2.5.4 (Apple Git-61)).
+
 See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
 
 See also this list of good resources: https://help.github.com/articles/good-resources-for-learning-git-and-github/
