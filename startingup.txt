@@ -35,8 +35,13 @@ To make a branch off of the previous commit, use
 $git branch <branch name>
 $git checkout <branch name>  // to be “cd’d” into that branch
 
+To list available branches, use
+$git branch
+
+
 See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
 
-See also this list of good resources: https://help.github.com/articles/good-resources-for-learning-git-and-github/ 
+See also this list of good resources: https://help.github.com/articles/good-resources-for-learning-git-and-github/
+ 
 
 
