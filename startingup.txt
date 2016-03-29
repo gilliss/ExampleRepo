@@ -38,6 +38,10 @@ $git checkout <branch name>  // to be “cd’d” into that branch
 To list available branches, use
 $git branch
 
+To merge a branch into your current active branch (the one you’re currently checked into), use
+$git merge <branch> // i.e. you want to merge <branch> into the active branch
+
+
 
 See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
 
