@@ -68,11 +68,17 @@ To clone a repository (local or remote), cd to a desired location and use
 $git clone <path/to/desiredDir>
 The path can be a local path or a remote server path/URL.
 
-To pull the latest commits of a repository into a different repository, use
-$git pull <path/to/desiredDir>
+To pull the latest commits of a repository into the current repository, use
+$git pull <path/to/desiredDir> 
 
 To view the value of “origin” or some other remote ref, use
 $git remote show origin
+
+Specifically, for MJSW, if you cd into a particular software dir and use
+$git pull origin master 
+it will update your local copy of GAT/MGDO/etc to be current with your github fork of that software. Similarly,
+$git pull upstream master
+will update your local copy of a certain software to be current with the mppmu github fork of that software.
 
 Ref: https://help.github.com/articles/fetching-a-remote/
 
