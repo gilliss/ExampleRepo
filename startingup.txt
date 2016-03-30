@@ -64,9 +64,16 @@ Ref: http://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-p
 
 ————————————————————————————————
 
+To clone a repository (local or remote), cd to a desired location and use
+$git clone <path/to/desiredDir>
+The path can be a local path or a remote server path/URL.
+
+To pull the latest commits of a repository into a different repository, use
+$git pull <source> <destination>
 
 
 
+Ref: https://help.github.com/articles/fetching-a-remote/
 
 ————————————————————————————————
 
