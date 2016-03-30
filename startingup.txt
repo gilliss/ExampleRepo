@@ -45,8 +45,23 @@ It seems that you must commit your desired changes before checking in/out betwee
 
 There is a nice git GUI called gitk. gitk is supposedly built in, but it does not seem to be built in with my version: git version 2.5.4 (Apple Git-61)).
 
-See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
+————————————————————————————————
 
+To create a repo on GitHub, one can use the “+” button on github.com, or the command line can be used. To create a remote repo on GitHub, use
+$git remote add origin https://github.com/gilliss/ExampleRepo.git
+
+“As you probably know, git is a distributed version control system. Most operations are done locally. To communicate with the outside world, git uses what are called remotes. These are repositories other than the one on your local disk which you can push your changes into (so that other people can see them) or pull from (so that you can get others changes). The command git remote add origin https://github.com/gilliss/ExampleRepo.git a new remote called origin located at https://github.com/gilliss/ExampleRepo.git. Once you do this, in your push commands, you can push to origin instead of typing out the whole URL.”
+
+To fill the remote repo with the work in your local repo, use
+$git push -u origin master
+
+“This is a command that says ‘push the commits in the local branch named master to the remote named origin’. Once this is executed, all the stuff that you last synchronised with origin will be sent to the remote repository and other people will be able to see them there.”
+
+Ref: http://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master
+
+————————————————————————————————
+
+See this tutorial for notes: http://pcottle.github.io/learnGitBranching/
 See also this list of good resources: https://help.github.com/articles/good-resources-for-learning-git-and-github/
  
 
