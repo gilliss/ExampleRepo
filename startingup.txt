@@ -71,7 +71,8 @@ The path can be a local path or a remote server path/URL.
 To pull the latest commits of a repository into a different repository, use
 $git pull <path/to/desiredDir>
 
-
+To view the value of “origin” or some other remote ref, use
+$git remote show origin
 
 Ref: https://help.github.com/articles/fetching-a-remote/
 
