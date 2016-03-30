@@ -57,7 +57,16 @@ $git push -u origin master
 
 “This is a command that says ‘push the commits in the local branch named master to the remote named origin’. Once this is executed, all the stuff that you last synchronised with origin will be sent to the remote repository and other people will be able to see them there.”
 
+To see all of your local and remote branches, use 
+$git branch -a
+
 Ref: http://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master
+
+————————————————————————————————
+
+
+
+
 
 ————————————————————————————————
 
